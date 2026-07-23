@@ -11,7 +11,7 @@
 - 🔭 Working with Python, data, and AI
 - 🤖 Robotics — VEX V5 odometry, motion control, and a 6DOF vision-guided arm
 - 🌐 Building for the web with JavaScript and TypeScript
-- 🌟 **Portfolio:** [jonahchang.vercel.app](https://jonahchang.vercel.app)
+- 🌟 **Portfolio:** [portfolio-five-omega-y8vld3apbj.vercel.app](https://portfolio-five-omega-y8vld3apbj.vercel.app/)
 - 📫 Reach me at **saphirredragon207@gmail.com**
 
 ## Tech Stack
