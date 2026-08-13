@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Jonah Chang, systems that move</title>
+  <desc id="desc">An animated control atlas with a plotted orange route connecting robotics, vision, and software.</desc>
+  <defs>
+    <pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse"><path d="M100 0H0V100" fill="none" stroke="#dce4ff" stroke-width="1" opacity=".18"/></pattern>
+    <clipPath id="reveal"><rect x="0" y="0" width="0" height="520"><animate attributeName="width" values="0;1200;1200" keyTimes="0;.55;1" dur="2.4s" fill="freeze"/></rect></clipPath>
+  </defs>
+  <rect width="1200" height="520" fill="#1438c7"/><rect width="1200" height="520" fill="url(#grid)"/>
+  <path d="M0 414C150 414 150 304 300 304S450 388 595 266 790 122 915 220 1050 370 1200 160" fill="none" stroke="#ff5b19" stroke-width="13" stroke-linecap="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"><animate attributeName="stroke-dashoffset" values="1;0;0" keyTimes="0;.72;1" dur="3.2s" fill="freeze"/></path>
+  <g fill="#f5f3ec" stroke="#ff5b19" stroke-width="8">
+    <circle cx="300" cy="304" r="16"><animate attributeName="r" values="10;20;16" begin="1s" dur=".55s" fill="freeze"/></circle>
+    <circle cx="595" cy="266" r="16"><animate attributeName="r" values="10;20;16" begin="1.45s" dur=".55s" fill="freeze"/></circle>
+    <circle cx="915" cy="220" r="16"><animate attributeName="r" values="10;20;16" begin="1.9s" dur=".55s" fill="freeze"/></circle>
+  </g>
+  <g clip-path="url(#reveal)">
+    <text x="58" y="72" fill="#dce4ff" font-family="JetBrainsMono Nerd Font Mono, JetBrains Mono, monospace" font-size="18" font-weight="700" letter-spacing="3">JONAH CHANG / CONTROL ATLAS</text>
+    <text x="52" y="188" fill="#fffdf7" font-family="JetBrainsMono Nerd Font Mono, JetBrains Mono, monospace" font-size="82" font-weight="800" letter-spacing="-5">SYSTEMS THAT</text>
+    <text x="52" y="270" fill="#fffdf7" font-family="JetBrainsMono Nerd Font Mono, JetBrains Mono, monospace" font-size="82" font-weight="800" letter-spacing="-5">MOVE.</text>
+  </g>
+  <g fill="#dce4ff" font-family="JetBrainsMono Nerd Font Mono, JetBrains Mono, monospace" font-size="15" font-weight="700" letter-spacing="2"><text x="245" y="348">ROBOTICS</text><text x="550" y="310">VISION</text><text x="866" y="264">SOFTWARE</text></g>
+  <g transform="translate(52 454)"><rect width="402" height="38" fill="#fffdf7"/><text x="16" y="25" fill="#121212" font-family="JetBrainsMono Nerd Font Mono, JetBrains Mono, monospace" font-size="15" font-weight="700" letter-spacing="1.5">MEASURE / CORRECT / BUILD</text></g>
+  <circle r="8" fill="#ff5b19"><animateMotion dur="5s" repeatCount="indefinite" path="M0 414C150 414 150 304 300 304S450 388 595 266 790 122 915 220 1050 370 1200 160"/></circle>
+</svg>
