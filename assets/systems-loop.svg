@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+  <title id="title">Systems in motion</title><desc id="desc">An animated route connects sensing, estimating, controlling, and inspecting.</desc>
+  <rect width="1200" height="260" fill="#fffdf7"/>
+  <g stroke="#1438c7" stroke-width="2" opacity=".12"><path d="M0 52h1200M0 104h1200M0 156h1200M0 208h1200"/><path d="M120 0v260M360 0v260M600 0v260M840 0v260M1080 0v260"/></g>
+  <path id="route" d="M70 132H1130" fill="none" stroke="#121212" stroke-width="4"/>
+  <path d="M70 132H1130" fill="none" stroke="#ff5b19" stroke-width="8" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"><animate attributeName="stroke-dashoffset" values="1;0;0" keyTimes="0;.75;1" dur="3s" repeatCount="indefinite"/></path>
+  <g font-family="JetBrainsMono Nerd Font Mono, JetBrains Mono, monospace" font-weight="800" text-anchor="middle">
+    <g transform="translate(170 132)"><circle r="36" fill="#1438c7" stroke="#121212" stroke-width="4"><animate attributeName="r" values="32;40;36" dur="2s" repeatCount="indefinite"/></circle><text y="7" fill="#fffdf7" font-size="18">SENSE</text></g>
+    <g transform="translate(460 132)"><circle r="36" fill="#dce4ff" stroke="#121212" stroke-width="4"><animate attributeName="r" values="36;32;40;36" dur="2s" begin=".4s" repeatCount="indefinite"/></circle><text y="7" fill="#121212" font-size="18">ESTIMATE</text></g>
+    <g transform="translate(750 132)"><circle r="36" fill="#ff5b19" stroke="#121212" stroke-width="4"><animate attributeName="r" values="36;32;40;36" dur="2s" begin=".8s" repeatCount="indefinite"/></circle><text y="7" fill="#121212" font-size="18">CONTROL</text></g>
+    <g transform="translate(1030 132)"><circle r="36" fill="#121212" stroke="#121212" stroke-width="4"><animate attributeName="r" values="36;32;40;36" dur="2s" begin="1.2s" repeatCount="indefinite"/></circle><text y="7" fill="#fffdf7" font-size="18">INSPECT</text></g>
+  </g>
+  <circle r="10" fill="#fffdf7" stroke="#ff5b19" stroke-width="5"><animateMotion dur="3s" repeatCount="indefinite"><mpath href="#route"/></animateMotion></circle>
+</svg>
