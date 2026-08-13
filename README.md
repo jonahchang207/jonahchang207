@@ -19,7 +19,7 @@ I'm Jonah, a high school student who builds robots and the software behind them.
 A lot of my work starts with something difficult to observe: a robot drifting off its path, a camera losing an object, or an autonomous routine that takes too long to test on hardware. I build the system, then build the tools that help me see why it works or why it does not.
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=cpp,py,ts,cs,opencv,react,nodejs,git,github,vscode,figma&theme=light&perline=11" alt="C++, Python, TypeScript, C sharp, OpenCV, React, Node.js, Git, GitHub, VS Code, and Figma" />
+  <img src="https://skillicons.dev/icons?i=cpp,py,ts,cs,opencv,react,nodejs,git,github,vscode,figma&theme=dark&perline=11" alt="C++, Python, TypeScript, C sharp, OpenCV, React, Node.js, Git, GitHub, VS Code, and Figma" />
 </p>
 
 <br>
@@ -84,6 +84,16 @@ A lot of my work starts with something difficult to observe: a robot drifting of
 | [Vortex](https://github.com/jonahchang207/Vortex) | A VEX Robotics companion application for competition analytics, team information, and event data. | `Flutter` `Supabase` |
 | [Harbor](https://github.com/jonahchang207/Harbor) | A local application for downloading and converting online video files. | `C#` `.NET` |
 | [56S Override](https://github.com/jonahchang207/56S-Override) | Competition code for VEX team 56S, including autonomous movement, driver control, motors, and pneumatics. | `C++` `PROS` |
+
+<br>
+
+## Recent commit signal
+
+This graph counts commits authored by me in public, non-fork repositories during the rolling last three months. It refreshes every day.
+
+<p align="center">
+  <img src="./assets/recent-commits.svg" width="100%" alt="Animated graph of Jonah's commits by project during the last three months." />
+</p>
 
 <br>
 
