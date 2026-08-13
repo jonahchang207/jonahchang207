@@ -1,0 +1,38 @@
+name: Refresh recent commit activity
+
+on:
+  schedule:
+    - cron: "17 12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: recent-commit-activity
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Generate three-month activity graph
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_OWNER: jonahchang207
+        run: node scripts/generate-recent-commits.mjs
+      - name: Commit updated graph
+        run: |
+          if git diff --quiet -- assets/recent-commits.svg; then
+            echo "Activity graph is already current."
+            exit 0
+          fi
+          git config user.name "jonahchang207"
+          git config user.email "jonahchang207@gmail.com"
+          git add -- assets/recent-commits.svg
+          git commit -m "Update recent commit activity"
+          git push
