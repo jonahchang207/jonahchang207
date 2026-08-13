@@ -1,6 +1,9 @@
 name: Refresh recent commit activity
 
 on:
+  push:
+    paths-ignore:
+      - "assets/recent-commits.svg"
   schedule:
     - cron: "17 12 * * *"
   workflow_dispatch:
