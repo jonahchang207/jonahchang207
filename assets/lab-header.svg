@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
+  <title id="title">Jonah Chang — code that moves the real world</title>
+  <desc id="desc">Robotics, computer vision, and software. An autonomous trajectory with animated sensor rings.</desc>
+  <defs>
+    <radialGradient id="glow"><stop stop-color="#153e48"/><stop offset="1" stop-color="#0d1117"/></radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#8da9c4" stroke-opacity=".08"/></pattern>
+  </defs>
+  <style>
+    .signal{stroke-dasharray:10 14;animation:flow 12s linear infinite}
+    .orbit{transform-origin:925px 211px;animation:orbit 32s linear infinite}
+    .beacon{animation:pulse 3s ease-in-out infinite}
+    @keyframes flow{to{stroke-dashoffset:-240}}
+    @keyframes orbit{to{transform:rotate(360deg)}}
+    @keyframes pulse{50%{opacity:.35}}
+    @media(prefers-reduced-motion:reduce){.signal,.orbit,.beacon{animation:none}}
+  </style>
+  <rect x="1" y="1" width="1198" height="438" rx="24" fill="#0d1117" stroke="#293441"/>
+  <rect x="690" y="24" width="460" height="348" rx="24" fill="url(#glow)"/>
+  <rect x="690" y="24" width="460" height="348" rx="24" fill="url(#grid)"/>
+  <g font-family="monospace" font-size="14" letter-spacing="2" fill="#98a9bc"><text x="52" y="55">JONAH CHANG / ENGINEERING LAB</text><circle class="beacon" cx="1023" cy="50" r="5" fill="#68e1c2"/><text x="1040" y="55" fill="#68e1c2">56S</text></g>
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="66" letter-spacing="-2"><text x="48" y="149" fill="#f0f6fc">Code that moves</text><text x="48" y="225" fill="#68e1c2">the real world.</text></g>
+  <text x="52" y="275" fill="#a7b6c8" font-family="Arial, Helvetica, sans-serif" font-size="21">Robots. Vision. Tools that make both better.</text>
+  <g transform="translate(52 310)" font-family="monospace" font-size="13" letter-spacing="1"><rect width="120" height="34" rx="17" fill="#17342f"/><text x="19" y="22" fill="#68e1c2">ROBOTICS</text><rect x="132" width="104" height="34" rx="17" fill="#202c45"/><text x="153" y="22" fill="#a8bfff">VISION</text><rect x="248" width="124" height="34" rx="17" fill="#332c22"/><text x="266" y="22" fill="#f4bc75">SOFTWARE</text></g>
+  <g fill="none" stroke="#68e1c2"><circle cx="925" cy="211" r="120" opacity=".12"/><circle cx="925" cy="211" r="84" opacity=".18"/><g class="orbit"><circle cx="925" cy="211" r="145" stroke-dasharray="80 28 4 28" opacity=".3"/><circle cx="1070" cy="211" r="5" fill="#68e1c2"/></g><path d="M747 310C830 310 774 171 870 172S931 309 1018 270 1016 123 1100 114" stroke="#263f46" stroke-width="5"/><path class="signal" d="M747 310C830 310 774 171 870 172S931 309 1018 270 1016 123 1100 114" stroke-width="3"/><circle cx="747" cy="310" r="6" fill="#0d1117" stroke-width="2"/><circle cx="1100" cy="114" r="7" fill="#68e1c2"/></g>
+  <g transform="translate(925 211) rotate(-25)"><rect x="-28" y="-33" width="56" height="66" rx="12" fill="#142d31" stroke="#68e1c2" stroke-width="2"/><path d="M-34-22v15m0 14v15m68-44v15m0 14v15" stroke="#a8bfff" stroke-width="6" stroke-linecap="round"/><path d="m0-17-10 19h20z" fill="#68e1c2"/><circle cy="17" r="3" fill="#f4bc75"/></g>
+  <path d="M52 377H1148" stroke="#293441"/><g fill="#98a9bc" font-family="monospace" font-size="13" letter-spacing="1"><text x="52" y="410">SENSE → UNDERSTAND → MOVE → REFINE</text><text x="1148" y="410" text-anchor="end">BUILT THROUGH ITERATION</text></g>
+</svg>

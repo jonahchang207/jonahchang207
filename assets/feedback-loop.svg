@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-labelledby="title desc">
+  <title id="title">From perception to motion</title><desc id="desc">Sense with cameras and encoders, estimate position and heading, control the robot, then inspect telemetry and repeat.</desc>
+  <style>.flow{stroke-dasharray:8 12;animation:flow 5s linear infinite}@keyframes flow{to{stroke-dashoffset:-100}}@media(prefers-reduced-motion:reduce){.flow{animation:none}}</style>
+  <rect x="1" y="1" width="1198" height="238" rx="20" fill="#0d1117" stroke="#293441"/>
+  <text x="40" y="40" fill="#98a9bc" font-family="monospace" font-size="13" letter-spacing="2">HOW I BUILD / THE FEEDBACK LOOP</text>
+  <path d="M160 120H1040M1040 164V204H160V164" fill="none" stroke="#293441" stroke-width="2"/><path class="flow" d="M160 120H1040M1040 164V204H160V164" fill="none" stroke="#68e1c2" stroke-width="2"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <g transform="translate(40 76)"><rect width="240" height="88" rx="12" fill="#132723" stroke="#31584d"/><text x="20" y="33" fill="#68e1c2" font-size="23" font-weight="700">01 / Sense</text><text x="20" y="62" fill="#a7b6c8" font-size="16">Cameras + encoders</text></g>
+    <g transform="translate(333 76)"><rect width="240" height="88" rx="12" fill="#172036" stroke="#35456b"/><text x="20" y="33" fill="#a8bfff" font-size="23" font-weight="700">02 / Estimate</text><text x="20" y="62" fill="#a7b6c8" font-size="16">Position + heading</text></g>
+    <g transform="translate(626 76)"><rect width="240" height="88" rx="12" fill="#2b251e" stroke="#5b4932"/><text x="20" y="33" fill="#f4bc75" font-size="23" font-weight="700">03 / Control</text><text x="20" y="62" fill="#a7b6c8" font-size="16">Paths + corrections</text></g>
+    <g transform="translate(920 76)"><rect width="240" height="88" rx="12" fill="#242035" stroke="#4e436b"/><text x="20" y="33" fill="#c5aff5" font-size="23" font-weight="700">04 / Inspect</text><text x="20" y="62" fill="#a7b6c8" font-size="16">Telemetry + iteration</text></g>
+  </g>
+  <rect x="454" y="189" width="292" height="30" rx="15" fill="#0d1117"/><text x="600" y="209" text-anchor="middle" fill="#98a9bc" font-family="monospace" font-size="12" letter-spacing="2">MEASURE. CORRECT. REPEAT.</text>
+</svg>

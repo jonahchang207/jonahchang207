@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/control-atlas.svg" width="100%" alt="Jonah Chang. Robotics, vision, and software." />
+  <img src="./assets/lab-header.svg" width="100%" alt="Jonah Chang — code that moves the real world. Robotics, computer vision, and software." />
 </p>
 
 <p align="center">
@@ -12,11 +12,15 @@
 
 <br>
 
-## Code gets interesting when the real world pushes back.
+## Hey, I'm Jonah.
 
-I'm Jonah, a high school student who builds robots and the software behind them. I write competition code for VEX V5 team 56S and handle most of the robot's CAD.
+I'm a high school student building robots and the software that brings them to life. On **VEX V5 team 56S**, I write competition code and handle most of the robot's CAD. Outside the field, I build computer vision experiments, simulators, and tools that make complex systems easier to understand.
 
-A lot of my work starts with something difficult to observe: a robot drifting off its path, a camera losing an object, or an autonomous routine that takes too long to test on hardware. I build the system, then build the tools that help me see why it works or why it does not.
+My favorite problems start where code meets reality: a robot drifting off its path, a camera losing its target, or an autonomous routine that needs one more iteration.
+
+> Build it. Make it observable. Make it better.
+
+**Pick a starting point:** [Move a robot](https://github.com/jonahchang207/odyssey) · [Simulate a routine](https://github.com/jonahchang207/odyssey-sim) · [Explore computer vision](https://github.com/jonahchang207/FrameSight)
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=cpp,py,ts,cs,opencv,react,nodejs,git,github,vscode,figma&theme=dark&perline=11" alt="C++, Python, TypeScript, C sharp, OpenCV, React, Node.js, Git, GitHub, VS Code, and Figma" />
@@ -24,20 +28,23 @@ A lot of my work starts with something difficult to observe: a robot drifting of
 
 <br>
 
-## Systems in motion
+## From perception to motion
 
 <p align="center">
-  <img src="./assets/systems-loop.svg" width="100%" alt="Animated engineering loop: sense, estimate, control, inspect." />
+  <img src="./assets/feedback-loop.svg" width="100%" alt="My engineering loop: sense with cameras and encoders, estimate position, control motion, inspect telemetry, and repeat." />
 </p>
 
 <br>
 
 ## Selected work
 
+From autonomous paths to pixels on a screen — four ways I turn an idea into a working system.
+
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/jonahchang207/odyssey">Odyssey</a></h3>
+      <h3>01 / <a href="https://github.com/jonahchang207/odyssey">Odyssey</a></h3>
+      <strong>Give the robot a sense of direction.</strong><br><br>
       <code>C++</code> <code>PROS</code> <code>Motion control</code>
       <br><br>
       Robot localization and autonomous motion using odometry, PID, move-to-pose, and pure pursuit.
@@ -45,7 +52,8 @@ A lot of my work starts with something difficult to observe: a robot drifting of
       <a href="https://jonahchang207.github.io/odyssey/"><strong>Read the documentation</strong></a>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/jonahchang207/odyssey-sim">Odyssey Simulator</a></h3>
+      <h3>02 / <a href="https://github.com/jonahchang207/odyssey-sim">Odyssey Simulator</a></h3>
+      <strong>Test the path before the robot takes it.</strong><br><br>
       <code>TypeScript</code> <code>Simulation</code>
       <br><br>
       A virtual VEX field for writing autonomous routines, watching them run, and generating C++ for the robot.
@@ -55,7 +63,8 @@ A lot of my work starts with something difficult to observe: a robot drifting of
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/jonahchang207/FrameSight">FrameSight</a></h3>
+      <h3>03 / <a href="https://github.com/jonahchang207/FrameSight">FrameSight</a></h3>
+      <strong>See what the model sees.</strong><br><br>
       <code>Python</code> <code>YOLO</code> <code>ONNX</code>
       <br><br>
       A transparent Windows overlay that captures the screen and draws object detections without blocking clicks.
@@ -63,7 +72,8 @@ A lot of my work starts with something difficult to observe: a robot drifting of
       <a href="https://github.com/jonahchang207/FrameSight"><strong>Explore FrameSight</strong></a>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/jonahchang207/IRIS-Progect">IRIS</a></h3>
+      <h3>04 / <a href="https://github.com/jonahchang207/IRIS-Progect">IRIS</a></h3>
+      <strong>Turn a detection into a movement.</strong><br><br>
       <code>Robotics</code> <code>Computer vision</code> <code>IK</code>
       <br><br>
       A vision-guided six-axis robotic arm that combines object detection, analytical inverse kinematics, and hardware control.
@@ -75,7 +85,7 @@ A lot of my work starts with something difficult to observe: a robot drifting of
 
 <br>
 
-## More routes
+## More from the workbench
 
 | Project | What I built | Tools |
 | :--- | :--- | :--- |
@@ -87,13 +97,15 @@ A lot of my work starts with something difficult to observe: a robot drifting of
 
 <br>
 
-## Recent commit signal
+## The lab, lately
 
-This graph counts commits authored by me in public, non-fork repositories during the rolling last three months. It refreshes every day.
+An automatically refreshed view of where I've been building: authored commits in public, non-fork, non-archived repositories over the last three months. Each row shows a project's total and its weekly rhythm.
 
 <p align="center">
-  <img src="./assets/recent-commits.svg" width="100%" alt="Animated graph of Jonah's commits by project during the last three months." />
+  <img src="./assets/recent-commits.svg" width="100%" alt="Jonah's authored commits by project over the last three months, with weekly activity cells and an update date." />
 </p>
+
+<p align="center"><a href="https://github.com/jonahchang207?tab=repositories">Browse all repositories →</a> · <a href="https://github.com/jonahchang207/jonahchang207/actions/workflows/recent-commits.yml">View daily refreshes</a></p>
 
 <br>
 
@@ -107,6 +119,6 @@ This graph counts commits authored by me in public, non-fork repositories during
 
 <p align="center">
   <a href="mailto:saphirredragon207@gmail.com">
-    <img src="./assets/contact-route.svg" width="100%" alt="Start a conversation about robotics, computer vision, or engineering." />
+    <img src="./assets/lets-build.svg" width="100%" alt="Working on something that moves? Let's talk robotics, computer vision, or an idea worth building. Email Jonah." />
   </a>
 </p>
