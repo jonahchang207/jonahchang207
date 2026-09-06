@@ -99,11 +99,20 @@ From autonomous paths to pixels on a screen — four ways I turn an idea into a 
 
 ## The lab, lately
 
-An automatically refreshed view of where I've been building: authored commits in public, non-fork, non-archived repositories over the last three months. Each row shows a project's total and its weekly rhythm.
+Where I've been building over the **last 13 weeks**, refreshed daily. Each row shows authored commits and weekly activity on the same scale.
 
 <p align="center">
-  <img src="./assets/recent-commits.svg" width="100%" alt="Jonah's authored commits by project over the last three months, with weekly activity cells and an update date." />
+  <img src="./assets/recent-commits.svg" width="100%" alt="Jonah's public code activity over 13 weeks: authored commits per repository and weekly activity on a shared scale. Generated profile refreshes are excluded." />
 </p>
+
+<details>
+  <summary>What counts?</summary>
+
+Commits linked to my GitHub author identity on the default branches of my own public, non-fork, non-archived repositories. Dates use the commit's author timestamp in UTC. The window covers 91 calendar dates, including today; the latest week is still in progress. Duplicate SHAs within a repository count once. Merge commits count if I authored them.
+
+The old profile workflow used my identity for automatic updates. Its known `Update recent commit activity` entries in this profile repository are excluded; future refreshes use the GitHub Actions bot. Private work, other branches, and contributions to other people's repositories aren't included, so this is not my GitHub contribution-calendar total.
+
+</details>
 
 <p align="center"><a href="https://github.com/jonahchang207?tab=repositories">Browse all repositories →</a> · <a href="https://github.com/jonahchang207/jonahchang207/actions/workflows/recent-commits.yml">View daily refreshes</a></p>
 
