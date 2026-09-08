@@ -2,14 +2,14 @@
 
 I'm a developer focused on building clean, thoughtful software and solving practical problems.
 
-### 🔭 What I'm up to
-- 🛠️ **Working on:** [Project Name](https://github.com/jonahchang207/repo) — *a quick line about what it does*
-- 📚 **Learning:** [Tech/Framework you're currently exploring, e.g. Go, Rust, System Design]
-- 💬 **Ask me about:** [Your main stack/interests, e.g. React, Python, Web Dev]
+### What I'm up to
+- **Working on:** [Project Name](https://github.com/jonahchang207/repo) — *a quick line about what it does*
+- **Learning:** [Tech/Framework you're currently exploring, e.g. Go, Rust, System Design]
+- **Ask me about:** [Your main stack/interests, e.g. React, Python, Web Dev]
 
 ---
 
-### 🛠️ Tech Stack & Tools
+### Tech Stack & Tools
 
 - **Languages:** JavaScript, TypeScript, Python, HTML/CSS
 - **Frameworks/Libs:** React, Next.js, Node.js, Tailwind CSS
@@ -17,7 +17,7 @@ I'm a developer focused on building clean, thoughtful software and solving pract
 
 ---
 
-### 📌 Featured Projects
+### Featured Projects
 
 | Project | Description | Stack |
 | :--- | :--- | :--- |
@@ -26,7 +26,7 @@ I'm a developer focused on building clean, thoughtful software and solving pract
 
 ---
 
-### 📫 Connect with me
+### Connect with me
 
 - **Portfolio:** [yourdomain.com](https://yourdomain.com)
 - **LinkedIn:** [linkedin.com/in/jonahchang](https://linkedin.com)
