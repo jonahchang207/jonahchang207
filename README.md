@@ -28,6 +28,6 @@ I'm a developer focused on building clean, thoughtful software and solving pract
 
 ### Connect with me
 
-- **Portfolio:** [yourdomain.com](https://yourdomain.com)
+- **Portfolio:** [yourdomain.com]([https://yourdomain.com](https://portfolio-five-omega-y8vld3apbj.vercel.app/))
 - **LinkedIn:** [linkedin.com/in/jonahchang](https://linkedin.com)
 - **Email:** `jonah@example.com`
